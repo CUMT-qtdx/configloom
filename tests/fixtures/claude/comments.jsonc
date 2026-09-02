@@ -1,0 +1,11 @@
+// 顶部注释：Claude 官方文档只承诺 JSON，本文件仅验证 ConfigLoom 的 JSONC 保真解析
+{
+  // MCP Server 区域
+  "mcpServers": {
+    // 相邻注释：本地文件服务
+    "filesystem": {
+      "command": "node", // 行尾注释：命令
+      "args": ["server.js"]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "servers": {
+    "dev-server": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["src/server.js"],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env.example",
+      "dev": {
+        "watch": "src/**/*.js"
+      },
+      "sandboxEnabled": true
+    }
+  }
+}

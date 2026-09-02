@@ -1,0 +1,28 @@
+[package]
+name = "configloom"
+version = "0.0.1"
+edition = "2024"
+description = "跨 AI 客户端编译、校验并保真读取 MCP Server 配置"
+license = "MIT"
+repository = "https://github.com/CUMT-qtdx/configloom"
+rust-version = "1.85"
+
+[dependencies]
+clap = { version = "4.5", features = ["derive"] }
+indexmap = { version = "2.12", features = ["serde"] }
+jsonc-parser = { version = "0.33.1", features = ["cst", "serde", "serde_json", "preserve_order"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", features = ["preserve_order"] }
+toml = { version = "0.9", features = ["preserve_order"] }
+toml_edit = { version = "0.25.13", features = ["serde"] }
+
+[dev-dependencies]
+assert_cmd = "2.1"
+predicates = "3.1"
+tempfile = "3.23"
+
+[lints.rust]
+unsafe_code = "forbid"
+
+[lints.clippy]
+all = "warn"

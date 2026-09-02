@@ -1,0 +1,21 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "github-token",
+      "description": "示例 Token",
+      "password": true
+    }
+  ],
+  "sandbox": {
+    "network": {
+      "allowedDomains": ["example.invalid"]
+    }
+  },
+  "servers": {
+    "filesystem": {
+      "command": "node",
+      "args": ["server.js"]
+    }
+  }
+}

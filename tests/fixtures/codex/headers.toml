@@ -1,0 +1,6 @@
+[mcp_servers.github]
+url = "https://example.invalid/mcp"
+
+[mcp_servers.github.http_headers]
+Authorization = "Bearer example-token"
+X-Client = "configloom-fixture"

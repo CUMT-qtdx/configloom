@@ -1,0 +1,19 @@
+[mcp_servers.local-tools]
+command = "node"
+args = ["server.js"]
+cwd = "./tools"
+env_vars = ["EXAMPLE_TOKEN"]
+enabled = true
+required = true
+startup_timeout_sec = 12.5
+tool_timeout_sec = 30.0
+enabled_tools = ["search"]
+disabled_tools = ["delete"]
+
+[mcp_servers.internal-api]
+url = "https://example.invalid/mcp"
+http_headers_helper = "./scripts/example-headers"
+bearer_token_env_var = "EXAMPLE_TOKEN"
+
+[mcp_servers.internal-api.env_http_headers]
+X-Example-Token = "EXAMPLE_TOKEN"

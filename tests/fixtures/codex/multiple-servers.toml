@@ -1,0 +1,6 @@
+[mcp_servers.filesystem]
+command = "npx"
+args = ["-y", "@modelcontextprotocol/server-filesystem", "."]
+
+[mcp_servers."团队-api"]
+url = "https://example.invalid/mcp"

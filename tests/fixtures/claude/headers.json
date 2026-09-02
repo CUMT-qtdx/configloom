@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "github": {
+      "type": "http",
+      "url": "https://example.invalid/mcp",
+      "headers": {
+        "Authorization": "Bearer example-token",
+        "X-Client": "configloom-fixture"
+      }
+    }
+  }
+}

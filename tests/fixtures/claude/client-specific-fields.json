@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "internal-api": {
+      "type": "http",
+      "url": "https://example.invalid/mcp",
+      "headersHelper": "./scripts/example-headers",
+      "alwaysLoad": true,
+      "timeout": 15000
+    }
+  }
+}

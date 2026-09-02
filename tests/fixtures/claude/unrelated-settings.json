@@ -1,0 +1,12 @@
+{
+  "projectMetadata": {
+    "owner": "example-team",
+    "revision": 3
+  },
+  "mcpServers": {
+    "filesystem": {
+      "command": "node",
+      "args": ["server.js"]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "filesystem": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-filesystem", "."]
+    },
+    "team-api": {
+      "type": "http",
+      "url": "https://example.invalid/mcp"
+    }
+  }
+}

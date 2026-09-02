@@ -1,0 +1,9 @@
+model = "example-model"
+approval_policy = "on-request"
+
+[features]
+example_feature = true
+
+[mcp_servers.filesystem]
+command = "node"
+args = ["server.js"]

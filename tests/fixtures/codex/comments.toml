@@ -1,0 +1,8 @@
+# 顶部注释
+model = "example-model" # 行尾无关设置注释
+
+# MCP Server section 注释
+[mcp_servers.filesystem]
+# 相邻字段注释
+command = "node" # 行尾命令注释
+args = ["server.js"]

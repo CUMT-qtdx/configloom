@@ -1,0 +1,6 @@
+future_top_level = true
+
+[mcp_servers.filesystem]
+command = "node"
+args = ["server.js"]
+future_option = { mode = "example", introduced = 2026-09-02T00:00:00Z }

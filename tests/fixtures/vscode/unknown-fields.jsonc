@@ -1,0 +1,13 @@
+{
+  "servers": {
+    "filesystem": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["server.js"],
+      "futureOption": {
+        "mode": "example"
+      }
+    }
+  },
+  "futureTopLevel": true
+}

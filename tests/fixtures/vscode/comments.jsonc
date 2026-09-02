@@ -1,0 +1,12 @@
+// 顶部注释
+{
+  // Server section 注释
+  "servers": {
+    // 相邻字段注释
+    "filesystem": {
+      "type": "stdio", // 行尾 transport 注释
+      "command": "node",
+      "args": ["server.js"]
+    }
+  }
+}
